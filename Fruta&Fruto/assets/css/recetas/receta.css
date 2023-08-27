@@ -1,0 +1,17 @@
+.recetas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #dab997;
+    padding: 40px;
+}
+.receta{
+    max-width: 280px;
+    height: 480px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.receta__descripcion, .receta__titulo{
+    margin-bottom: 10px;
+}
